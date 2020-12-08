@@ -1,4 +1,4 @@
-
+//
 //  majorsAndTranscripts.cpp
 //  Degree Planning System
 //
@@ -14,20 +14,14 @@
 
 using namespace std;
 
-void majorsAndTranscripts::chosenMajor() {
-
-
-
+void majorsAndTranscripts::chosenMajor(string major) {
+    m_major = major;
 }
 
-void majorsAndTranscripts::courses() {
-
-
-
+void majorsAndTranscripts::courses(string courses) {
+    m_courses = courses;
 }
 
-void majorsAndTranscripts::majors(){
-
-
-
+void majorsAndTranscripts::majors(string majors){
+    m_majors = majors;
 }
