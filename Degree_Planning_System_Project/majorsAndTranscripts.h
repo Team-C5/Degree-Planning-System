@@ -15,15 +15,16 @@ class majorsAndTranscripts
 {
 public:
     void chosenMajor(string);
-    void courses(int);
-    void majors(int);
+    void courses(string);
+    void majors(string);
     
     string getMajor();
     
 private:
-    string major;
-    int numberOfCourses;
-    int numberOfMajors;
+    string m_major;
+    string m_courses;
+    string m_majors;
+
 };
 
 #endif
