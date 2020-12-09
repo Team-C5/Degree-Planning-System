@@ -28,6 +28,10 @@ public:
     int getNumber();
     string getName();
     
+    // Function that displays all course offerings
+    int courseOfferings(string rubric, int number, string name);
+    
+    
 private:
     string m_rubric;
     int m_number;

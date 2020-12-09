@@ -12,6 +12,9 @@
 
 #include "userMenu.h"
 #include "messaging.h"
+#include "courses.h"
+#include "courseOfferings.h"
+
 
 
 using namespace std;
@@ -32,9 +35,9 @@ int userMenu(){
         
         // Menu choices
         cout << "\t0 - Quit" << endl;
-        cout << "\t1 - Students' Transcripts" << endl;
+        cout << "\t1 - Student Transcript" << endl;
         cout << "\t2 - Course Offerings" << endl;
-        cout << "\t3 - Degree Evaluation" << endl;
+        cout << "\t3 - Degree Plan" << endl;
         cout << "\t4 - Semester Schedule" << endl;
         cout << "\t5 - Help\n" << endl;
     
@@ -54,6 +57,7 @@ int userMenu(){
             }
             case 2:
             {
+                offerings();
                 break;
             }
             case 3:

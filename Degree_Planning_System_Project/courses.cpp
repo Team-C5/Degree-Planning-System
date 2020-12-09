@@ -9,6 +9,7 @@
 #include <string>
 #include <vector>
 #include <fstream>
+#include <iomanip>
 
 #include "courses.h"
 
@@ -36,5 +37,15 @@ int Course::getNumber(){
 
 string Course::getName(){
     return m_name;
+}
+
+
+
+// Function that displays course information
+int Course::courseOfferings(string rubric, int number, string name)
+{
+    cout << setw(8) << rubric << setw(10) << number << setw(20) << name << endl;
+
+    return 0;
 }
 

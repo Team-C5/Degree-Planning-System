@@ -20,8 +20,8 @@ void welcoming(){
     cout << "=======================================================" << endl;
     cout << "              SAN JAC DEGREE PLANNING SYSTEM           " << endl;
     cout << "=======================================================\n" << endl;
-    cout << "--> Choose from below what type of report you wish to\n";
-    cout << "    perform, or choose quit to exit the program.\n\n" << endl;
+    cout << "--> Choose what type of report you wish to\n";
+    cout << "    perform, or enter 0 to exit the program.\n\n" << endl;
 
 }
 
