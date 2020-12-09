@@ -11,7 +11,8 @@ public:
 	void outputReqCourses();
 private:
 	string planName;
-	vector<string> requiredCourses;
+	vector<string> coreReqs;
+	vector<string> majorReqs;
 	char reqGrade;
 	int totHours;
 };
