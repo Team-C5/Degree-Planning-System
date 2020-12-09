@@ -16,7 +16,6 @@ using namespace std;
 
 void majorsAndTranscripts::chosenMajor(string major) {
     m_major = major;
-    cout<<< 
 }
 
 
