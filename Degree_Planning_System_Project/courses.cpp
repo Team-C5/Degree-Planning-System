@@ -44,7 +44,8 @@ string Course::getName(){
 // Function that displays course information
 int Course::courseOfferings(string rubric, int number, string name)
 {
-    cout << setw(8) << rubric << setw(10) << number << setw(20) << name << endl;
+
+    cout << left << setw(8) << rubric << setw(10) << number << left << name << setfill(' ') << endl;
 
     return 0;
 }
