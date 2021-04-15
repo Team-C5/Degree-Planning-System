@@ -19,7 +19,7 @@
 
 using namespace std;
 
-// Menu for user to choose what type of report they want
+// Menu to choose type of report
 int userMenu(){
     
     int choice;
